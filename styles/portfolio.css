@@ -30,6 +30,7 @@
   border-radius: 5px;
   border: none;
   cursor: pointer;
+  text-align: center;
 }
 section-title{
   font-size: 35px;
@@ -138,6 +139,7 @@ nav li a {
   border-radius: 5px;
   background-color: rgb(255, 248, 243);
   margin-left: 30px;
+  cursor: pointer;
 }
 /* Banner styles end here */
 
@@ -225,7 +227,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
   nav > h3 {
     margin-right: 22px;
     margin-top: 20px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
   }
   nav > ul {
     gap: 20px;
@@ -249,6 +251,11 @@ footer input[type="text"], footer input[type="email"], footer textarea{
   }
   .banner {
     margin: 20px;
+  }
+  .contact-btn {
+    width: 150px;
+    height: 60px; 
+    margin-left: 5px;
   }
   .banner-profile-pic {
     width: 100%;
