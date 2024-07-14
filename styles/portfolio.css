@@ -54,6 +54,17 @@ nav {
   justify-content: space-between;
   margin: 0px 200px;
 }
+.nav-btn {
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 18px 35px 19px 36px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
 .nav-title {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 45px;
@@ -124,6 +135,17 @@ nav li a {
   margin-bottom: 30px;
   margin-top: -40px;
   /* text-align: ; */
+}
+.cv-btn {
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 18px 35px 19px 36px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
 }
 .contact-btn {
   color: rgb(253, 110, 10);
@@ -230,11 +252,14 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     margin-bottom: 5px;
   }
   nav > ul {
-    gap: 20px;
+    gap: 10px;
     margin-bottom: -100px;
   }
-  .btn-primary {
-    margin-bottom: 20px;
+  .nav-btn {
+    font-size: 18px;
+    width: 150px;
+  }
+  .nav-title  {
     width: 150px;
   }
   .banner-greetings {
@@ -252,10 +277,14 @@ footer input[type="text"], footer input[type="email"], footer textarea{
   .banner {
     margin: 20px;
   }
+  .cv-btn {
+    width: 75%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
   .contact-btn {
-    width: 150px;
-    height: 60px; 
-    margin-left: 5px;
+    width: 75%;
+    margin-left: 40px;
   }
   .banner-profile-pic {
     width: 100%;
