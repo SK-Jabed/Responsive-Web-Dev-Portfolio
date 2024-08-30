@@ -247,7 +247,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     flex-direction: column;
   }
   nav > h3 {
-    margin-right: 22px;
     margin-top: 20px;
     margin-bottom: 5px;
   }
